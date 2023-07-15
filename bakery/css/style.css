@@ -1,0 +1,125 @@
+html {
+    background-color: #ffe2b0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.nav-a {
+    padding-right: 100px;
+}
+
+.bgimage {
+    width: 100%;
+    height: 640px;
+    background-image: url("/bakery/img/01-Картинка-фона.jpg");
+    background-size: 100%, 640px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 20px;
+}
+
+.medals {
+    display: flex;
+    justify-content: center;
+}
+section img {
+    margin-right: 76px;
+    margin-bottom: 20px;
+}
+
+.last {
+    margin-right: 0;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-header {
+    text-align: center;
+    font-family: "Philosopher", sans-serif;
+    font-size: 96px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+span {
+    color: #f15b40;
+}
+
+
+.main-text-paragraph {
+    font-size: 18px;
+    margin: 0 0 0 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.main-text .wrapper {
+    width: 1000px;
+    padding-bottom: 20px;
+}
+
+.order {
+    font-size: 36px;
+    font-family: "Philosopher", sans-serif;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map img {
+    width: 900px;
+    height: 400px;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+
+.create-line {
+    width: 1024px;
+    border-top: 1px solid #999999;
+    margin-bottom: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer a {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 20px;
+}
